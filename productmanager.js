@@ -32,5 +32,5 @@ class ProductManager {
     }
 }
 let product = new ProductManager()
-product.addProduct({title: '',description: '',price: '',thumbnail: '',id:'' ,stock:''})
+product.addProduct({title: 'producto prueba',description: 'Este es un producto prueba',price: '200',thumbnail: 'Sin imagen',id:'abc123' ,stock:'25'})
 product.getProductById(1)
