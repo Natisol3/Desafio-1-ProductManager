@@ -10,10 +10,10 @@ class ProductManager {
         return this.products 
     }
     getProductById(product_id) {
-        let uno = this.products.find(each=> each.id === product_id)
-        if (uno) {
-            console.log(uno)
-            return uno
+        let one = this.products.find(each=> each.id === product_id)
+        if (one) {
+            console.log(one)
+            return one
         }
         console.log('not found')
         return null
